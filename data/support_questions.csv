@@ -1,0 +1,141 @@
+question_id,question,expected_topic,difficulty
+q_001,What does an LLM actually predict when it generates text?,foundations,easy
+q_002,Why can a chatbot sound confident but still be wrong?,limitations,easy
+q_003,How do I estimate whether my prompt will fit into the context window?,tokenization,medium
+q_004,Why does a long prompt cost more than a short prompt?,tokenization,easy
+q_005,What is the difference between a word and a token?,tokenization,easy
+q_006,Can I search course notes by meaning instead of exact keywords?,embeddings,medium
+q_007,What does cosine similarity tell me about two pieces of text?,embeddings,medium
+q_008,Why does semantic search return a result even when the question is unrelated?,semantic_search,medium
+q_009,How can I check whether the right document appears in the top three results?,evaluation,medium
+q_010,What should an application do if retrieval confidence is low?,evaluation,medium
+q_011,How do I prevent retrieved text from overriding my system instructions?,limitations,hard
+q_012,When should I use a database or API instead of relying on model memory?,limitations,medium
+q_013,Why does the model generate one token at a time?,foundations,medium
+q_014,What is the difference between a base model and a chat model?,foundations,medium
+q_015,How do transformer blocks use context from earlier words?,foundations,medium
+q_016,Why does changing the prompt change the generated answer?,foundations,medium
+q_017,What do logits represent before text appears?,foundations,medium
+q_018,Why is model memory not the same as a database?,foundations,medium
+q_019,How should I explain context windows to a product manager?,foundations,medium
+q_020,What decoding setting should I use for reproducible output?,foundations,medium
+q_021,Why can a model answer without knowing whether it is correct?,foundations,medium
+q_022,How do system and user messages become part of the prompt?,foundations,medium
+q_023,What does attention help the model connect?,foundations,medium
+q_024,Why is retrieval described as external memory?,foundations,medium
+q_025,How does instruction tuning change model behavior?,foundations,medium
+q_026,What is a stop condition during generation?,foundations,medium
+q_027,Why should an LLM app separate facts from language generation?,foundations,medium
+q_028,What makes a prompt more like a natural-language program?,foundations,medium
+q_029,Why does JSON use so many tokens?,tokenization,medium
+q_030,How can I reduce the token count of a long instruction?,tokenization,medium
+q_031,How many retrieved chunks can fit into a 16000 token window?,tokenization,medium
+q_032,Why do URLs and code snippets increase token usage?,tokenization,medium
+q_033,What should I remove first when a prompt is too long?,tokenization,medium
+q_034,How do conversation history turns affect cost?,tokenization,medium
+q_035,Why should output tokens be reserved before adding context?,tokenization,medium
+q_036,How do I estimate cost for one hundred thousand requests?,tokenization,medium
+q_037,When should I summarize history instead of sending every turn?,tokenization,medium
+q_038,How do examples in a prompt affect the budget?,tokenization,medium
+q_039,Why is token cost a product-design concern?,tokenization,medium
+q_040,How can repeated static instructions become expensive?,tokenization,medium
+q_041,What is the risk of optimizing prompts only for low cost?,tokenization,medium
+q_042,How do input and output token prices differ?,tokenization,medium
+q_043,How does chunk size change total prompt tokens?,tokenization,medium
+q_044,What does a negative remaining token budget mean?,tokenization,medium
+q_045,How do embeddings compare two pieces of text?,embeddings,medium
+q_046,Why can semantic search find related ideas with different words?,embeddings,medium
+q_047,What is the difference between TF-IDF and neural embeddings?,embeddings,medium
+q_048,Why are similarity scores relative to the dataset?,embeddings,medium
+q_049,How does chunk size affect embedding quality?,embeddings,medium
+q_050,What metadata should be stored with document vectors?,embeddings,medium
+q_051,Why might an embedding retrieve a broadly related but useless result?,embeddings,medium
+q_052,How do stopwords affect a transparent vectorizer?,embeddings,medium
+q_053,Why are exact product names difficult for generic embeddings?,embeddings,medium
+q_054,How can multilingual documents change embedding evaluation?,embeddings,medium
+q_055,What does cosine similarity compare?,embeddings,medium
+q_056,Why do we normalize vectors before comparing them?,embeddings,medium
+q_057,How do I debug a surprising nearest neighbor?,embeddings,medium
+q_058,Why should I inspect top three results instead of only top one?,embeddings,medium
+q_059,When should hybrid search help embeddings?,embeddings,medium
+q_060,How do source titles improve retrieval?,embeddings,medium
+q_061,How do I build a semantic search pipeline from documents?,semantic_search,medium
+q_062,What does top-k retrieval mean?,semantic_search,medium
+q_063,Why is recall at three useful for RAG?,semantic_search,medium
+q_064,How do I create manual labels for retrieval evaluation?,semantic_search,medium
+q_065,What is mean reciprocal rank measuring?,semantic_search,medium
+q_066,When should a search system ask for clarification?,semantic_search,medium
+q_067,How do confidence thresholds prevent weak matches?,semantic_search,medium
+q_068,Why does hybrid search combine keywords and vectors?,semantic_search,medium
+q_069,What metadata helps debug retrieved documents?,semantic_search,medium
+q_070,How can I tell whether a result is relevant enough?,semantic_search,medium
+q_071,Why should unrelated questions be part of search evaluation?,semantic_search,medium
+q_072,How do I compare top one and top three quality?,semantic_search,medium
+q_073,What is the difference between retrieval and generation?,semantic_search,medium
+q_074,How can a threshold be too high?,semantic_search,medium
+q_075,How can a threshold be too low?,semantic_search,medium
+q_076,What should happen when no result is relevant?,semantic_search,medium
+q_077,What is retrieval augmented generation?,rag,medium
+q_078,How should retrieved chunks be inserted into a prompt?,rag,medium
+q_079,Why do RAG answers need citations?,rag,medium
+q_080,What should happen if retrieved context is stale?,rag,medium
+q_081,How do vector store updates affect old documents?,rag,medium
+q_082,Why might reranking improve retrieved context?,rag,medium
+q_083,How do I evaluate answer grounding?,rag,medium
+q_084,When should a RAG system refuse to answer?,rag,medium
+q_085,Why is document freshness important?,rag,medium
+q_086,How do source IDs help audit RAG answers?,rag,medium
+q_087,What is the difference between retrieved context and model memory?,rag,medium
+q_088,Why can too many chunks hurt an answer?,rag,medium
+q_089,How should fallback behavior be written?,rag,medium
+q_090,How do I monitor citation coverage?,rag,medium
+q_091,When should an API be used instead of retrieval?,rag,medium
+q_092,How do I test RAG before connecting a model?,rag,medium
+q_093,How do I detect hallucinated claims?,limitations,medium
+q_094,Why is stale knowledge risky?,limitations,medium
+q_095,How can retrieved text create prompt injection?,limitations,medium
+q_096,What private data should not be logged?,limitations,medium
+q_097,Why should unsupported claims be refused?,limitations,medium
+q_098,How do I handle low-confidence outputs?,limitations,medium
+q_099,What monitoring signals matter for an LLM service?,limitations,medium
+q_100,Why can bias appear in retrieved documents?,limitations,medium
+q_101,How should the app treat user-provided instructions?,limitations,medium
+q_102,What makes a source untrusted?,limitations,medium
+q_103,Why should generated answers cite evidence?,limitations,medium
+q_104,How can prompt injection appear inside a document?,limitations,medium
+q_105,What should happen when a user asks for secrets?,limitations,medium
+q_106,How does fallback behavior reduce harm?,limitations,medium
+q_107,Why is privacy more than an API setting?,limitations,medium
+q_108,How do I explain hallucination risk to stakeholders?,limitations,medium
+q_109,How do I build a golden test set?,evaluation,medium
+q_110,What should I include in retrieval regression tests?,evaluation,medium
+q_111,How do I review whether an answer is grounded?,evaluation,medium
+q_112,How can I validate structured JSON output?,evaluation,medium
+q_113,What safety cases should I test before release?,evaluation,medium
+q_114,How do I summarize evaluation results for reviewers?,evaluation,medium
+q_115,Why should ordinary and adversarial cases both be tested?,evaluation,medium
+q_116,How do I measure fallback rate?,evaluation,medium
+q_117,What is a useful release readiness checklist?,evaluation,medium
+q_118,How should user feedback improve the system?,evaluation,medium
+q_119,Why does one successful demo not prove reliability?,evaluation,medium
+q_120,What should I monitor after launch?,evaluation,medium
+q_121,How do I detect retrieval regressions over time?,evaluation,medium
+q_122,What should a human review in a grounded answer?,evaluation,medium
+q_123,How do I set pass criteria before implementation?,evaluation,medium
+q_124,What should be in an evaluation report?,evaluation,medium
+q_125,How do I combine token counting and semantic search?,practice,medium
+q_126,What should my support router print for each question?,practice,medium
+q_127,How do I justify a confidence threshold?,practice,medium
+q_128,What should I put in a stakeholder explanation?,practice,medium
+q_129,How do I add source URLs to the support router?,practice,medium
+q_130,How can I log routed questions for monitoring?,practice,medium
+q_131,What should I include in the final reflection?,practice,medium
+q_132,How do I test unrelated support questions?,practice,medium
+q_133,How should I record top three retrieved lessons?,practice,medium
+q_134,What makes a support question ambiguous?,practice,medium
+q_135,How do I calculate the estimated request cost?,practice,medium
+q_136,What is the simplest useful fallback policy?,practice,medium
+q_137,How do I expand the exercise with more labels?,practice,medium
+q_138,How can I compare threshold choices?,practice,medium
+q_139,What evidence shows the router is ready?,practice,medium
+q_140,How do I explain why the router can still be wrong?,practice,medium
